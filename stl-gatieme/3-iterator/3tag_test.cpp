@@ -18,13 +18,13 @@ struct D2 : public D1    //  D2 ¿É±ÈÄâÎªBidirectionalIterator
 
 
 template <class I>
-func(I &p, B)
+void func(I &p, B)
 {
     std::cout <<"B version..." <<endl;
 }
 
 template <class I>
-func(I &p, D2)
+void func(I &p, D2)
 {
     std::cout <<"D2 version..." <<endl;
 

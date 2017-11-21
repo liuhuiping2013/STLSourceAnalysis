@@ -1,0 +1,6 @@
+*.o
+3autoptr
+3find
+3test_typeid
+test_auto_ptr
+3tag_test
