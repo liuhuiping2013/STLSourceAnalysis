@@ -2,7 +2,7 @@ ROOT=.
 PLATFORM=$(shell $(ROOT)/systype.sh)
 include $(ROOT)/Make.defines.$(PLATFORM)
 
-DIRS=1-stl_config 3-iterator
+DIRS=1-stl_config 3-iterator 8-adapters
 
 
 all:
